@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 
 const Home: NextPage = () => (
-    <h1 className="text-4xl space-y-6 font-bold flex flex-col items-center text-gray-800 mt-10 ">
+    <div className="text-4xl space-y-6 font-bold flex flex-col items-center text-gray-800 mt-10 ">
         <p className="hover:scale-110 transition-all cursor-pointer ">NEXTJS 🖤</p>
         <p className="hover:scale-110 transition-all cursor-pointer ">TailwindCSS 🌊</p>
         <p className="hover:scale-110 transition-all cursor-pointer ">Typescript 💓</p>
@@ -10,7 +10,7 @@ const Home: NextPage = () => (
         <p className="hover:scale-110 transition-all cursor-pointer ">Husky 🐶</p>
 
         <h1 className="animate-bounce pt-10">Enjoy!!!!!!!</h1>
-    </h1>
+    </div>
 );
 
 export default Home;
